@@ -144,7 +144,7 @@ class _homePageState extends State<homePage> {
               context: context,
               text: 'Country not found! Please re-enter.',
               type: QuickAlertType.error);
-          description = 'Please enter a country';
+          description = '';
           flag = const NetworkImage('');
           setState(() {});
         }
